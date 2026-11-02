@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "buildId": "9f9b4f239ba1b4a4367e524c",
+  "scope": "/sudoku/",
+  "assets": [
+    {
+      "url": "/sudoku/assets/AssetManifest.bin",
+      "sha256": "168dbe863ea8509d94928cc7c91c383e64a103f9d479b36cdefbc5e45a24fd0d",
+      "size": 239
+    },
+    {
+      "url": "/sudoku/assets/AssetManifest.bin.json",
+      "sha256": "fa9bbc796206113847c96e326845faf5fe5d472b235b8a86d73bde5fca1da4db",
+      "size": 322
+    },
+    {
+      "url": "/sudoku/assets/FontManifest.json",
+      "sha256": "c5bc89fffa25a6106de80133db5eaa5a0a2d2ecba8d765349b67e5649736252f",
+      "size": 284
+    },
+    {
+      "url": "/sudoku/assets/NOTICES",
+      "sha256": "edfd1e34c65b633717b6c952ee23405af56b6b7409f9756ac9319461cec55e89",
+      "size": 1311025
+    },
+    {
+      "url": "/sudoku/assets/assets/images/marsik.png",
+      "sha256": "aea5c8ac3fc20daa0c948d1b260953ae33038a68cd415303ac20627108ba7472",
+      "size": 2270336
+    },
+    {
+      "url": "/sudoku/assets/assets/images/miki.png",
+      "sha256": "40c3ea6c92f24accdf35b76a7110643e70fa0854e379a29a9a148f8a09dadb98",
+      "size": 1461464
+    },
+    {
+      "url": "/sudoku/assets/fonts/MaterialIcons-Regular.otf",
+      "sha256": "e86f3dca0a01c234893d713234e713bee4c48a81eefce7e4c737fce69363639f",
+      "size": 10292
+    },
+    {
+      "url": "/sudoku/assets/fonts/fallback/Roboto-Regular.ttf",
+      "sha256": "79e851404657dac2106b3d22ad256d47824a9a5765458edb72c9102a45816d95",
+      "size": 171676
+    },
+    {
+      "url": "/sudoku/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf",
+      "sha256": "3d90c370aa4cf00dc57ee2b902f6652147c0f81e03e483df584a9c08b1687c9d",
+      "size": 1472
+    },
+    {
+      "url": "/sudoku/assets/shaders/ink_sparkle.frag",
+      "sha256": "2dca5ab93d4ec29e963f996f3916320ba60825e9537dfb149a68008c7a16b026",
+      "size": 8890
+    },
+    {
+      "url": "/sudoku/assets/shaders/stretch_effect.frag",
+      "sha256": "ab412f07a5b9b50b67a885b24dbe16929738ae28630407d6490c924caf0a3220",
+      "size": 6737
+    },
+    {
+      "url": "/sudoku/canvaskit/canvaskit.js",
+      "sha256": "bb559f6080c7d312ac2a912b4abec9f68ff3d3022d4a603c7796b9b31460642b",
+      "size": 86987
+    },
+    {
+      "url": "/sudoku/canvaskit/canvaskit.wasm",
+      "sha256": "2898c0795cf4a694e86ee3445c7414c2503fbcb46967154762f50ebde988da04",
+      "size": 7284349
+    },
+    {
+      "url": "/sudoku/flutter.js",
+      "sha256": "2beb1ce6b159c71540aa66030af1d7964b6a92377cc78473745e02f97b74effe",
+      "size": 12136
+    },
+    {
+      "url": "/sudoku/flutter_bootstrap.js",
+      "sha256": "f5f7f1e17cfb9e59544927142ca457722f8096282f72771d1009781554f7b4b3",
+      "size": 13718
+    },
+    {
+      "url": "/sudoku/icons/apple-touch-icon.png",
+      "sha256": "4223f4ed8e9c82acb678fa12046388119b7989b06ff39da3e3eb78d5dfe333b0",
+      "size": 55853
+    },
+    {
+      "url": "/sudoku/icons/icon-192.png",
+      "sha256": "6ce930638f8e4080ef392f139f435974efe1041f1f4cce3f8805994ed498cf46",
+      "size": 63071
+    },
+    {
+      "url": "/sudoku/icons/icon-512.png",
+      "sha256": "d412879032091be3730d90ea965d00ce0a8d60efbca293b39f0e87f729b4085a",
+      "size": 410727
+    },
+    {
+      "url": "/sudoku/index.html",
+      "sha256": "9b091bc6ef5a01cf345bb6f3fbd4b423bd704411ca0be5e9c2d30fa03967a010",
+      "size": 2656
+    },
+    {
+      "url": "/sudoku/main.dart.js",
+      "sha256": "cdc80f287b4c1d3b71728736bb648deed6a2ee6337eabc75ca1d0ecc9cc8df8f",
+      "size": 2407408
+    },
+    {
+      "url": "/sudoku/manifest.json",
+      "sha256": "e7d8dd458b857fd2ad0e2862ee80290dd3b896cc703aa3683d6ecdd0883ed865",
+      "size": 723
+    },
+    {
+      "url": "/sudoku/pwa.js",
+      "sha256": "a72d758fc80719a6019af580d27c776dca8fd036cac3eaf3266e674f2afb5706",
+      "size": 7968
+    },
+    {
+      "url": "/sudoku/shell.css",
+      "sha256": "39947440687d504225a8871e67289f755e76f74d7d574606b954d28662f63bb1",
+      "size": 2855
+    },
+    {
+      "url": "/sudoku/version.json",
+      "sha256": "5cc2193c301fe9f22f6249f487b36cd092a54552ee2b79b2a3304e0dd4db2359",
+      "size": 82
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <base href="/sudoku/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Спокойное судоку с Мики и Марсиком. Без рекламы и регистрации, с сохранением прогресса и игрой без интернета после загрузки.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FAF8FC" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#19161F" media="(prefers-color-scheme: dark)">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Судоку">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <title>Судоку с Мики и Марсиком</title>
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="shell.css">
+  <script src="pwa.js" defer></script>
+</head>
+<body>
+  <main id="loading-screen" aria-labelledby="loading-title">
+    <div class="welcome">
+      <img class="miki" src="icons/icon-192.png" width="96" height="96" alt="Кот Мики">
+      <p class="eyebrow">МИКИ И МАРСИК</p>
+      <h1 id="loading-title">Ваше время для судоку</h1>
+      <p id="loading-message" role="status">Готовим уютное место для игры…</p>
+      <div id="loading-spinner" class="spinner" aria-hidden="true"></div>
+      <button id="reload-button" class="primary" type="button" hidden>Попробовать снова</button>
+      <p class="quiet">Без рекламы. В вашем ритме.</p>
+    </div>
+  </main>
+  <aside id="offline-notice" class="notice" aria-live="polite" aria-atomic="true" hidden>
+    <span id="offline-message"></span>
+    <button id="offline-retry" class="text-button" type="button" hidden>Повторить</button>
+    <button id="offline-dismiss" class="dismiss" type="button" aria-label="Скрыть сообщение">×</button>
+  </aside>
+  <noscript>
+    <div class="noscript">Для судоку нужен JavaScript. Включите его в настройках Safari и откройте игру снова.</div>
+  </noscript>
+  <script src="flutter_bootstrap.js" defer></script>
+</body>
+</html>
