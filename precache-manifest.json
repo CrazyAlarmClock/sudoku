@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "buildId": "684fc93ada6dba86c38eae57",
+  "buildId": "64d1eaffc237363735ae8ea6",
   "scope": "/sudoku/",
   "assets": [
     {
@@ -75,8 +75,8 @@
     },
     {
       "url": "/sudoku/flutter_bootstrap.js",
-      "sha256": "f5f7f1e17cfb9e59544927142ca457722f8096282f72771d1009781554f7b4b3",
-      "size": 13718
+      "sha256": "37d54d8b2427252da71ec1601b500ced1c6997a64c110d72e3d6065862e68170",
+      "size": 13829
     },
     {
       "url": "/sudoku/icons/apple-touch-icon.png",
@@ -95,8 +95,8 @@
     },
     {
       "url": "/sudoku/index.html",
-      "sha256": "9b091bc6ef5a01cf345bb6f3fbd4b423bd704411ca0be5e9c2d30fa03967a010",
-      "size": 2656
+      "sha256": "71c8cc2f680928f4049af21aa33a2e0af47ef4dd7607d8e7f12d03b312227ebf",
+      "size": 2688
     },
     {
       "url": "/sudoku/main.dart.js",
@@ -110,13 +110,13 @@
     },
     {
       "url": "/sudoku/pwa.js",
-      "sha256": "d8607e6b31f79b825cb4264d46485894a36b47bcb1d05b943e7411a38a2bdab4",
+      "sha256": "feaabfb7ccfa418d71f99791d65928f33a9473e3a19cfbc8e3dd0df98f6bd042",
       "size": 7968
     },
     {
       "url": "/sudoku/shell.css",
-      "sha256": "266a1afb8a812a397049e9d70a567f8c1eb15e74724b77d2e2532268f1f40081",
-      "size": 3182
+      "sha256": "00f227e07676970a7d84e48ed31eee2a7c2403c95bc31c98ecbf756d43749ead",
+      "size": 3510
     },
     {
       "url": "/sudoku/version.json",

@@ -45,16 +45,18 @@ _flutter.buildConfig = {"engineRevision":"5f77625673248ee5846fbcaf5d3e1a3878386f
 // The build command bundles Roboto locally; unsupported font fallbacks must
 // never silently introduce a dependency on Google's font CDN.
 const sudokuBase = new URL(document.baseURI);
+const sudokuEngineConfig = {
+  hostElement: document.getElementById("flutter-host"),
+  renderer: "canvaskit",
+  canvasKitVariant: "full",
+  canvasKitBaseUrl: new URL("canvaskit/", sudokuBase).href,
+  fontFallbackBaseUrl: new URL("assets/font-fallback/", sudokuBase).href,
+};
 _flutter.loader.load({
-  config: {
-    renderer: "canvaskit",
-    canvasKitVariant: "full",
-    canvasKitBaseUrl: new URL("canvaskit/", sudokuBase).href,
-    fontFallbackBaseUrl: new URL("assets/font-fallback/", sudokuBase).href,
-  },
+  config: sudokuEngineConfig,
   onEntrypointLoaded: async (engineInitializer) => {
     try {
-      const appRunner = await engineInitializer.initializeEngine();
+      const appRunner = await engineInitializer.initializeEngine(sudokuEngineConfig);
       await appRunner.runApp();
     } catch (error) {
       window.sudokuShell?.failed(error);
