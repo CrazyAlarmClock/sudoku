@@ -1,7 +1,7 @@
 /* The build script replaces this token with a hash of this release. */
 (() => {
   "use strict";
-  const BUILD_ID = "9f9b4f239ba1b4a4367e524c";
+  const BUILD_ID = "684fc93ada6dba86c38eae57";
   const APP_PATH = "/sudoku/";
   const loading = document.getElementById("loading-screen");
   const message = document.getElementById("loading-message");

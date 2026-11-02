@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "buildId": "9f9b4f239ba1b4a4367e524c",
+  "buildId": "684fc93ada6dba86c38eae57",
   "scope": "/sudoku/",
   "assets": [
     {
@@ -100,8 +100,8 @@
     },
     {
       "url": "/sudoku/main.dart.js",
-      "sha256": "cdc80f287b4c1d3b71728736bb648deed6a2ee6337eabc75ca1d0ecc9cc8df8f",
-      "size": 2407408
+      "sha256": "66c8af39d83d4caa022424fc5686995d2d2881764bebb8c7c1ea3388b3508bc9",
+      "size": 2408770
     },
     {
       "url": "/sudoku/manifest.json",
@@ -110,13 +110,13 @@
     },
     {
       "url": "/sudoku/pwa.js",
-      "sha256": "a72d758fc80719a6019af580d27c776dca8fd036cac3eaf3266e674f2afb5706",
+      "sha256": "d8607e6b31f79b825cb4264d46485894a36b47bcb1d05b943e7411a38a2bdab4",
       "size": 7968
     },
     {
       "url": "/sudoku/shell.css",
-      "sha256": "39947440687d504225a8871e67289f755e76f74d7d574606b954d28662f63bb1",
-      "size": 2855
+      "sha256": "266a1afb8a812a397049e9d70a567f8c1eb15e74724b77d2e2532268f1f40081",
+      "size": 3182
     },
     {
       "url": "/sudoku/version.json",

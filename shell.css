@@ -65,3 +65,10 @@ button { font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparen
 button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .noscript { position: fixed; inset: 0; z-index: 1002; display: grid; place-items: center; padding: 32px; background: var(--paper); color: var(--ink); line-height: 1.6; text-align: center; }
 @media (prefers-reduced-motion: reduce) { .spinner { animation: none; border-color: var(--accent); } }
+
+/* Flutter's invisible accessibility labels can be longer than a cell. Keep
+   their hit regions inside the visible grid without hiding the labels from
+   assistive technology. The inline engine style otherwise uses overflow:visible. */
+flt-semantics[flt-semantics-identifier^="sudoku-cell-"] {
+  overflow: clip !important;
+}
